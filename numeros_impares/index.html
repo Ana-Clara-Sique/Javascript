@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Números ìmpares entre 100 e 200</title>    
+</head> 
+<body>
+
+<h1>Números Ímpares de 100 a 200</h1> 
+
+<div id="resultado"></div>
+
+<script>
+   function mostrarImpares() {
+    let resultado = "";
+    for(let i = 101; i <= 199; i +=2) {
+        resultado += i + "<br>";
+    }
+    document.getElementById("resultado").innerHTML = resultado; 
+   }  
+
+   mostrarImpares();
+</script>
+
+
+
+</body>
+</html>
